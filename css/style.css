@@ -1,0 +1,114 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;  
+}
+h5{
+    font-size: 25px;
+    font-weight: 700;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.brnd-logo img{
+    width: 250px;
+}
+.nav-menu a{
+    margin-right: 25px;
+}
+.carousel-heading{
+    color:#FABE4C;
+}
+.fashion-card img{
+    height: 350px;
+    padding-bottom: 10px;
+    background-color: rgb(241, 237, 237);
+    
+}
+.fashion-vendor img{
+    width: 70px;
+}
+.btn-custom{
+    background-color: rgba(164, 188, 70, 1);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn-custom i{
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.price{
+    font-size: 30px;
+    color: #FABE4C;
+}
+
+.fashion-card-footer{
+    background-color: white;
+    border: 0;
+}
+
+
+
+.gallery {
+    position: relative;
+    
+  }
+  
+  .gallery-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .gallery:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .text-content {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+
+
